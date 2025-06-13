@@ -66,9 +66,15 @@ git clone https://github.com/MiloszPradela/android-app
 cd android-app
 npm install
 
-1. Skonfiguruj Firebase (`google-services.json` w `android/app`)
-2. Uruchom aplikację na urządzeniu lub emulatorze:
+1. Skonfiguruj Firebase (`google-services.json` w `android/app`) (jeśli zamierzasz podpiąć własną bazę)
+2. (Opcjonalnie) Zaktualizuj npm do wersji 11.4.2: ( do najnowszej ) npm install -g npm@11.4.2
+3.  Uruchom Metro Bundler:  
+W pierwszym terminalu wpisz: npx react-native start
+4. Uruchom aplikację na emulatorze lub urządzeniu Android:  
+W drugim terminalu wpisz: npx react-native run-android
 
+**Uwaga:**  
+Projekt musi znajdować się w katalogu bez polskich znaków i spacji w ścieżce (np. `C:\Projects\android-app`), aby uniknąć błędów Gradle podczas budowania aplikacji na Androida.
 
 ---
 
