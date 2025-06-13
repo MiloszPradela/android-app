@@ -63,14 +63,16 @@ Aplikacja mobilna **eWSEI** dla studentów Wyższej Szkoły Ekonomii i Informaty
 ## 🚀 Instalacja
 
 git clone https://github.com/MiloszPradela/android-app
-cd android-app
-npm install
 
-1. Skonfiguruj Firebase (`google-services.json` w `android/app`) (jeśli zamierzasz podpiąć własną bazę)
-2. (Opcjonalnie) Zaktualizuj npm do wersji 11.4.2: ( do najnowszej ) npm install -g npm@11.4.2
-3.  Uruchom Metro Bundler:  
+cd android-app
+
+
+1. Zainstaluj wymagane zależności : npm install
+2. Skonfiguruj Firebase (`google-services.json` w `android/app`) (jeśli zamierzasz podpiąć własną bazę)
+3. (Opcjonalnie) Zaktualizuj npm do wersji 11.4.2: ( do najnowszej ) npm install -g npm@11.4.2
+4.  Uruchom Metro Bundler:  
 W pierwszym terminalu wpisz: npx react-native start
-4. Uruchom aplikację na emulatorze lub urządzeniu Android:  
+5. Uruchom aplikację na emulatorze lub urządzeniu Android:  
 W drugim terminalu wpisz: npx react-native run-android
 
 **Uwaga:**  
